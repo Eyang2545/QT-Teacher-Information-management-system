@@ -1,0 +1,13 @@
+"E:\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=E:/CLion 2022.2.4/bin/ninja/win/ninja.exe" -G Ninja -S E:\Cproject\CourseDesignBackend -B E:\Cproject\CourseDesignBackend\cmake-build-debug
+-- Configuring done
+CMake Warning (dev) in CMakeLists.txt:
+  AUTOGEN: No valid Qt version found for target question.  AUTOMOC, AUTOUIC
+  and AUTORCC disabled.  Consider adding:
+
+    find_package(Qt<QTVERSION> COMPONENTS Widgets)
+
+  to your CMakeLists.txt file.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Generating done
+-- Build files have been written to: E:/Cproject/CourseDesignBackend/cmake-build-debug
